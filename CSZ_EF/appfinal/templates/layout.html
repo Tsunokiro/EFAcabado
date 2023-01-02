@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf=8" />
+    <title>
+        {% block title %}
+        
+        {% endblock %}
+        | Camarena - Saira - Zevallos
+    </title>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}" />
+
+</head>
+<body>
+    {% block content %}
+
+   
+    {% endblock %}
+    
+</body>
+
+</html>
