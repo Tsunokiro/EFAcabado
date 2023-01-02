@@ -7,9 +7,9 @@
         <div class="card">
             <div class="card-body">
                 <br>
-        <h1>AGREGAR PRODUCTO</h1> 
+        <h1>AGREGAR CURSO</h1> 
 
-<form action="{% url 'crear_producto' %}" method="POST">
+<form action="{% url 'crear_curso' %}" method="POST">
     {% csrf_token %}
 
     {{form | crispy}}

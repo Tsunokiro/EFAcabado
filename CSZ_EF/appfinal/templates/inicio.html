@@ -1,14 +1,24 @@
 {% extends "layout.html" %}
 {% block content %}
+{% load crispy_forms_tags %}
 
+<div class="row">
+    <div class="col-12 col-md-6 offset-md-3">
+        <div class="card">
+            <div class="card-body">
+                <br>
 <h1>MENÚ</h1>
-<br>
-<br>
+
 <br>
 <ul>
     <li><a href="{% url 'saludo' %}">Inicio</a></li>
     <li><a href="{% url 'ruta_integrantes' %}">Integrantes</a></li>
     <li><a href="{% url 'crear_producto' %}">Crear producto</a></li>
-    <li><a>Crear curso</a></li>
+    <li><a href="{% url 'crear_curso' %}">Crear curso</a></li>
 </ul>
+
+</div>
+</div>
+</div>
+</div>
 {% endblock %}

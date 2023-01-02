@@ -1,15 +1,25 @@
 {% extends "layout.html" %}
 {% block content %}
+{% load crispy_forms_tags %}
 
-<h1>MENÚ</h1>
+<div class="row">
+    <div class="col-12 col-md-6 offset-md-3">
+        <div class="card">
+            <div class="card-body">
+                <br>
 <p>Integrantes:</p>
-<ul>
-    <li>Camarena Gomero, Lucía Isabel</li>
-    <li>Saira López, Marcos Roberto</li>
-    <li>Zevallos Cáceres, Piero Alonso</li>
+<ul class="list-group">
+    <li class="list-group-item">Camarena Gomero, Lucía Isabel</li>
+    <li class="list-group-item">Saira López, Marcos Roberto</li>
+    <li class="list-group-item">Zevallos Cáceres, Piero Alonso</li>
 </ul>
 <br>
 <br>
 <br>
+            </div>
+        </div>
+    </div>
+</div>
+
 
 {% endblock %}
