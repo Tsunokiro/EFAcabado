@@ -2,19 +2,13 @@
 {% block content %}
 
 <h1>MENÚ</h1>
-<p>Integrantes:</p>
-<ul>
-    <li>Camarena Gomero, Lucía Isabel</li>
-    <li>Saira López, Marcos Roberto</li>
-    <li>Zevallos Cáceres, Piero Alonso</li>
-</ul>
 <br>
 <br>
 <br>
 <ul>
     <li><a href="{% url 'saludo' %}">Inicio</a></li>
     <li><a href="{% url 'ruta_integrantes' %}">Integrantes</a></li>
-    <li><a>Crear producto</a></li>
+    <li><a href="{% url 'crear_producto' %}">Crear producto</a></li>
     <li><a>Crear curso</a></li>
 </ul>
 {% endblock %}
